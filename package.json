@@ -1,0 +1,24 @@
+{
+  "name": "many",
+  "version": "1.0.0",
+  "description": "",
+  "main": "twenty.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node twenty.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niconame/PTML-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niconame/PTML-test/issues"
+  },
+  "homepage": "https://github.com/niconame/PTML-test#readme",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "request": "^2.81.0"
+  }
+}
