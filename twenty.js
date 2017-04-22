@@ -9,8 +9,8 @@ http.createServer(function(req, res){
         "M":"Moomoo"
       }
     },function(error, response, body){
-        res.writeHead(200, {'Content-Type': 'yexy/html'});
+        res.writeHead(200, {'Content-Type': 'text/html'});
         res.write(body);
-        res.end('Hello Moomoo!');
+        res.end('Ｗhat should I do?');
     });
 }).listen('8000','127.0.0.1');
