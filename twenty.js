@@ -11,6 +11,6 @@ http.createServer(function(req, res){
     },function(error, response, body){
         res.writeHead(200, {'Content-Type': 'text/html'});
         res.write(body);
-        res.end('Ｗhat should I do?');
+        res.end();
     });
 }).listen('8000','127.0.0.1');
